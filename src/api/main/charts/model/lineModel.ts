@@ -6,7 +6,9 @@ export interface TradeListParams {
   end: number;
 }
 
-export interface TradeListModel {
-  symbol: string;
-  price: string;
+export interface TradeListItem {
+  price: number;
+  traded_at: number;
 }
+
+export type TradeListModel = TradeListItem[];

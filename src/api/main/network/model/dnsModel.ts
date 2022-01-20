@@ -28,4 +28,4 @@ export interface DNSItem {
 /**
  * @description: Request return value
  */
-export type DNSListGetResultModel = DNSItem[];
+export type DNSListModel = DNSItem[];

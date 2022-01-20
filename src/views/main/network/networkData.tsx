@@ -6,7 +6,7 @@ export function getDNSColumns(): BasicColumn[] {
     {
       title: 'ID',
       dataIndex: 'id',
-      width: 100,
+      width: 70,
     },
     {
       title: 'DOMAIN',
@@ -16,7 +16,7 @@ export function getDNSColumns(): BasicColumn[] {
     {
       title: 'PROTOCOL',
       dataIndex: 'protocol',
-      width: 150,
+      width: 130,
     },
     {
       title: 'IP',
@@ -35,12 +35,12 @@ export function getDNSColumns(): BasicColumn[] {
     },
     {
       title: 'DELAY',
-      width: 150,
+      width: 100,
       dataIndex: 'delay',
     },
     {
       title: 'METHOD',
-      width: 150,
+      width: 110,
       dataIndex: 'method',
     },
     {
